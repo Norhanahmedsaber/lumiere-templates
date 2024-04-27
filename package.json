@@ -1,0 +1,24 @@
+{
+  "name": "create-template",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "create-template": "index.js",
+    "ctpl": "index.js"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "files": [
+    "index.js",
+    "templates/*"
+  ],
+  "devDependencies": {
+    "prompts": "^2.4.2"
+  },
+  "dependencies": {
+    "file-uri-to-path": "^2.0.0",
+    "node-path": "^0.0.3"
+  }
+}
