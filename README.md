@@ -8,13 +8,17 @@ Ensure you have  [Node.js](https://nodejs.org/en), Expo download expo go on your
 , before proceeding with the installation of this package.
 ## Installation
 ```bash
-npm link create-template
+npm i
 ```
+```bash
+npm i -g
+```
+## Usage
 ```bash
 npx create-template
 ```
 specify template and give name to your project
- example: ReactNativeTemplate
+example: ReactNativeTemplate
 
 ```bash
 cd ReactNativeTemplate
@@ -26,6 +30,15 @@ npm i
 
 ```bash
 npx expo start --tunnel 
+```
+## Commands
+start the application on local network
+```bash
+npm run start
+```
+start the application with tunnel (ngrok)
+```bash
+npm run start-tunnel
 ```
 
 ## Architecture
