@@ -1,6 +1,6 @@
-# Expo Native Wind Templates
+# lumière templates
 
-This package is designed to facilitate the templating of React Native apps configured with Expo and Native Wind. It provides a convenient way to set up a new project or apply the Native Wind styling to existing folders within the project.
+This package is designed to facilitate the templating of React Native, React apps configured with Expo, Native Wind and Tailwind. It provides a convenient way to set up a new project or applying styling to existing folders within the project.
 
 ## Setting up environment
 
