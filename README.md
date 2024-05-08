@@ -40,7 +40,7 @@ cd newProject
 
 ```bash
 npm i
-
+```
 ```bash
 npm run dev 
 ```
