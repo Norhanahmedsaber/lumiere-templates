@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lumière templates Vanilla JS + Tailwind css</title>
+    <link rel="icon" type="image/x-icon" href="./public/light.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="w-screen h-screen flex justify-center items-center flex-col im-fell-french-canon-sc-regular select-none bg-black">
+    <div id="lamp-container" class="flex w-full h-full justify-center items-center flex-col">
+        <img draggable="false" id="lamp" src="./public/light.png" class="flex h-60 w-60 hover:cursor-pointer select-none">
+        <div class="flex flex-col justify-center items-center  text-white">
+            <div id="click">Click on the lamp!</div>
+            <div id="lamp-text" class="w-30 text-8xl font-medium">trust the darkness
+            </div>
+        </div>
+        <div id="description"
+            class="h-32 w-30 text-xl im-fell-french-canon-sc-regular text-white text-center">The is
+            vanilla js+ Tailwind CSS template support offers a robust foundation for developing modern web <br> applications
+            integrating Tailwind CSS for styling</div>
+    </div>
+    <div id="copyright" class="h-1/4 flex justify-center items-end text-lg font-medium font-fellFrench text-white">
+        &copy; Copyright 2024 . Made by &nbsp;<span id="author" class="cursor-pointer underline font-medium font-fellFrench text-white">Norhan Ahmed</span>.
+      </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

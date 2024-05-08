@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons'; 
-import WelcomScreen from '../screens/WelcomScreen';
+import WelcomeScreen from '../screens/WelcomeScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const Tab=createBottomTabNavigator()
@@ -27,7 +27,7 @@ export default function AppTabs () {
         >
           <Tab.Screen
             name="Welcome"
-            component={WelcomScreen}
+            component={WelcomeScreen}
             options={{
               tabBarLabel: 'Welcome', 
               tabBarIcon: ({ color, size }) => ( 

@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family:"IMFellFrenchCanonSC-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("IMFellFrenchCanonSC-Regular"),
+  url('./assets/fonts/IMFellFrenchCanonSC-Regular.woff')format("woff")
+}
+@font-face {
+  font-family:"DancingScript";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DancingScript-VariableFont_wght"),
+  url('./assets/fonts/DancingScript-VariableFont_wght.woff')format("woff")
+}
+.im-fell-french-canon-sc-regular {
+  font-family: "IM Fell French Canon SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}

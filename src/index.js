@@ -17,9 +17,29 @@ const projectNamePattern = /^[a-zA-Z0-9\-]+$/;
                 choices: [
                     {
                         value: "template-1",
-                        title: "Template 1",
-                        description: "This is template 1",
-                    }
+                        title: "ReactNative js + nativewind",
+                        description: "this is a react native template with expo and nativeWind configured ",
+                    },
+                    {
+                      value: "template-2",
+                      title: "vite React + tailwind JS",
+                      description: "This is Vite React + Tailwind CSS template provides a setup for developing React applications",
+                    },
+                    {
+                      value: "template-3",
+                      title: "vite React + tailwind TS",
+                    description: "The is Vite React + Tailwind CSS template with TypeScript support",
+                    },
+                    {
+                      value: "template-4",
+                      title: "vite vanilla + tailwind JS",
+                      description: "The is vanilla js+ Tailwind CSS template foundation for developing modern web",
+                    },                   
+                    {
+                      value: "template-5",
+                      title: "node express",
+                      description: "This is a node template",
+                    },
                 ],
             },
             {
