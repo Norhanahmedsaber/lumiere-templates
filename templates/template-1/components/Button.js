@@ -3,7 +3,7 @@ import { TouchableOpacity, Text, Alert, View } from 'react-native';
 
 export default  function Button  ({ title, onPress })  {
   const handlePress = () => {
-    Alert.alert('Button Clicked', 'React native template with expo configured');
+    Alert.alert('Button Clicked', 'React native template with expo');
     // Call the onPress function if it's provided
     onPress && onPress();
   };

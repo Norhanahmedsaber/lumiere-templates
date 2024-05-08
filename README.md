@@ -8,8 +8,12 @@ Ensure you have  [Node.js](https://nodejs.org/en), Expo download expo go on your
 , before proceeding with the installation of this package.
 ## Installation
 ```bash
-npm link create-template
+npm i
 ```
+```bash
+npm i -g
+```
+## Usage
 ```bash
 npx create-template
 ```
@@ -36,7 +40,6 @@ cd newProject
 
 ```bash
 npm i
-```
 
 ```bash
 npm run dev 
