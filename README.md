@@ -18,7 +18,8 @@ npm i -g
 npx create-template
 ```
 specify template and give name to your project
-example: ReactNativeTemplate
+
+ example: ReactNativeTemplate
 
 ```bash
 cd ReactNativeTemplate
@@ -31,20 +32,18 @@ npm i
 ```bash
 npx expo start --tunnel 
 ```
-## Commands
-start the application on local network
+example: newProject
+
 ```bash
-npm run start
-```
-start the application with tunnel (ngrok)
-```bash
-npm run start-tunnel
+cd newProject
 ```
 
-## Architecture
+```bash
+npm i
 
-The architecture of the project follows a component-based structure
-- **Components**: Individual UI elements such as buttons, cards, etc.
-- **Screens**: Higher-level components representing different screens of the application, such as WelcomeScreen and SettingsScreen.
-- **Navigation**: Defines the navigation flow of the application. Includes AppTabs and AppNavigations, where only one can be used as a parent element.
-- **Assets**: Include all images or icons you may want to use . 
+```bash
+npm run dev 
+```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

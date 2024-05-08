@@ -9,7 +9,7 @@ export default  function Button  ({ title, onPress })  {
   };
 
   return (
-    <TouchableOpacity className=" h-full w-full flex justify-center items-center " onPress={handlePress}>
+    <TouchableOpacity className="h-screen w-screen flex justify-center items-center " onPress={handlePress}>
      <View className="border bg-black w-[325px] h-[62px] justify-center items-center rounded">
      <Text className="text-white">{title}</Text>
      </View>
