@@ -1,10 +1,10 @@
 {
-  "name": "create-template",
+  "name": "lumiere",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "bin": {
-    "create-template": "index.js",
+    "lumiere": "index.js",
     "ctpl": "index.js"
   },
   "engines": {
