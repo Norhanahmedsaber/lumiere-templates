@@ -4,7 +4,7 @@ This package is designed to facilitate the templating of React Native, React app
 
 ## Installation
 ```bash
-npm i lumiere-templates -g
+npm i -g lumiere_templates 
 ```
 ## Usage
 Navigate in the folder you want to create a template in and type
