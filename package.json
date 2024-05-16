@@ -1,7 +1,7 @@
 {
   "name": "lumiere_templates",
   "author": "norhan31",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "React + React Native + Node Templates",
   "main": "index.js",
