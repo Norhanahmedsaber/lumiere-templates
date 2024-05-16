@@ -2,36 +2,16 @@
 
 This package is designed to facilitate the templating of React Native, React apps configured with Expo, Native Wind and Tailwind. It provides a convenient way to set up a new project or applying styling to existing folders within the project.
 
-## Setting up environment
-
-Ensure you have  [Node.js](https://nodejs.org/en), Expo download expo go on your mobile
-, before proceeding with the installation of this package.
 ## Installation
 ```bash
-npm i
-```
-```bash
-npm i -g
+npm i lumiere-templates -g
 ```
 ## Usage
+Navigate in the folder you want to create a template in and type
 ```bash
-npx create-template
+lumiere
 ```
 specify template and give name to your project
-
- example: ReactNativeTemplate
-
-```bash
-cd ReactNativeTemplate
-```
-
-```bash
-npm i
-```
-
-```bash
-npx expo start --tunnel 
-```
 example: newProject
 
 ```bash
