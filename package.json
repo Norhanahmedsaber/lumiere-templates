@@ -1,7 +1,7 @@
 {
   "name": "lumiere_templates",
   "author": "norhan31",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "React + React Native + Node Templates",
   "main": "index.js",
@@ -32,12 +32,9 @@
     "index.js",
     "templates/*"
   ],
-  "devDependencies": {
-    "prompts": "^2.4.2"
-  },
   "dependencies": {
     "file-uri-to-path": "^2.0.0",
-    "lumiere_templates": "^1.0.0",
-    "node-path": "^0.0.3"
+    "node-path": "^0.0.3",
+    "prompts": "2.4.2"
   }
 }
