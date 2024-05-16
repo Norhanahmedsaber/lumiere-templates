@@ -1,11 +1,29 @@
 {
-  "name": "lumiere",
+  "name": "lumiere-templates",
+  "author": "norhan31",
   "version": "1.0.0",
   "type": "module",
+  "description": "React + React Native + Node Templates",
   "main": "index.js",
   "bin": {
     "lumiere": "index.js",
     "ctpl": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/norhanahmedsaber/lumiere-templates/issues"
+  },
+  "keywords": [
+    "templates",
+    "react",
+    "react template",
+    "node",
+    "expo",
+    "tailwind",
+    "react native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Norhanahmedsaber/lumiere-templates.git"
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
