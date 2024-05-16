@@ -17,13 +17,11 @@ example: newProject
 ```bash
 cd newProject
 ```
-
 ```bash
 npm i
 ```
 ```bash
 npm run dev 
 ```
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+## Author
+[Norhan Ahmed](https://norhan.netlify.app)

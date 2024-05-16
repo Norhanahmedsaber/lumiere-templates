@@ -15,11 +15,7 @@ const projectNamePattern = /^[a-zA-Z0-9\-]+$/;
                 name: "template",
                 message: "Select template",
                 choices: [
-                    {
-                        value: "template-1",
-                        title: "ReactNative js + nativewind",
-                        description: "this is a react native template with expo and nativeWind configured ",
-                    },
+                    
                     {
                       value: "template-2",
                       title: "vite React + tailwind JS",
@@ -34,7 +30,12 @@ const projectNamePattern = /^[a-zA-Z0-9\-]+$/;
                       value: "template-4",
                       title: "vite vanilla + tailwind JS",
                       description: "The is vanilla js+ Tailwind CSS template foundation for developing modern web",
-                    },                   
+                    },     
+                    {
+                      value: "template-1",
+                      title: "ReactNative js + nativewind",
+                      description: "this is a react native template with expo and nativeWind configured ",
+                  },              
                     {
                       value: "template-5",
                       title: "node express",
