@@ -62,7 +62,7 @@ const projectNamePattern = /^[a-zA-Z0-9\-]+$/;
         const targetDir = path.join(process.cwd(), projectName);
         const sourceDir = path.resolve(
             fileURLToPath(import.meta.url),
-            "../../templates",
+            "../templates",
             `${template}`
         );
 
